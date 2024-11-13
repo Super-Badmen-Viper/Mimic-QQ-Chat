@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+<version>1.0.8</version>
+<url>https://github.com/Super-Badmen-Viper/NSMusicS/releases/download/NSMusicS-Win-v1.0.8/NSMusicS.Setup.1.0.8.exe</url>
+<changelog>https://github.com/Super-Badmen-Viper/NSMusicS/releases</changelog>
+<changelog_explain>
+    1.1.0现已更新内容;
+    优化本地模式导入逻辑, 使其能够适配用户的各种音乐库管理习惯;
+    增加数据展示页面(专辑，乐曲，艺术家)左上角刷新按钮，可重置此页面的数据;
+    增加歌曲/专辑/艺术家的的tag信息浏览编辑功能;
+    增加对Linux,MacOS系统客户端的支持
+    增加音效-均衡器(简易/专业)功能(仅适用于音频输出源为howler.js(web输出));
+    增加cue音频格式的支持
+    ;;
+    后续即将更新的功能;
+    增加与Windows系统媒体控制(SMTC)交互功能(开发基于C#适用于Windows的dll，用以NSMusicS-Electron访问Windows底层组件功能);
+    增加播放器动态渐变背景，可选播放背景(动态渐变背景/专辑底图);
+    为每一个按钮都添加鼠标悬浮提示说明，更好帮助用户友好使用;
+    增加并优化应用主题样式(Windows云母主题，秋霜白主题，暗耀黑主题，火山灰主题);
+    按文件夹目录对歌曲进行排序，按目录排序，准确搜索歌曲;
+    增加歌词样式(圆点渐变动画，表示下一句歌词即将播放的进度变化);
+    增加歌词样式(桌面歌词功能);
+    增加歌词样式(进一步优化并完全开放歌词逐字功能。服务器模式也可使用本地模式中的逐字歌词，逐字效果与AppleMusic歌词逐字效果一致);
+    增加对MacOS客户端的支持;
+    增加对Docker-Web客户端的支持;
+    增加服务器配置种类，兼容emby-api，并增加视频MV播放模式(特色功能：MV歌词同步打歌动画);
+    增加快捷键操控模式(可在菜单-快捷键中，根据用户使用习惯自定义快捷键，也可使用默认的快捷键);
+    dlna推送到音响播放;
+    ;
+    优化NSMusicS产品用户友好性，构建引导程序，逐步引导用户完成配置操作;
+    增加服务器配置种类，兼容jellyfin-api;
+    增加webdav服务器配置(数据下载/即时访问);
+    增加云存储网盘服务器配置(onedrive以及各类云盘);
+    增加服务器配置种类，使用NSMusicS-GO API;
+    ;
+    增加界面的流媒体管理系统功能，与NSMusicS-GO服务器端进行融合;
+</changelog_explain>
+<mandatory>false</mandatory>
+</item>
